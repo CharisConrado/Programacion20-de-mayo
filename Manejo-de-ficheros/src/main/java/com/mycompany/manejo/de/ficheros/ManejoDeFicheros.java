@@ -14,8 +14,7 @@ public class ManejoDeFicheros {
             boolean running = true;
 
             while (running) {
-                System.out.println("Seleccione una opción:");
-                System.out.println("1. Agregar contacto");
+               System.out.println("1. Agregar contacto");
                 System.out.println("2. Ver contactos");
                 System.out.println("3. Salir");
                 int option = scn.nextInt();
